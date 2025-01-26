@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #D2D2D2;
+        background-image:
+        repeating-linear-gradient(
+            to right, transparent 0 100px,
+            #25283b22 100px 101px
+        ),
+        repeating-linear-gradient(
+            to bottom, transparent 0 100px,
+            #25283b22 100px 101px
+        );
+    }
+
+    body::before{
+        position: absolute;
+        width: min(1400px, 90vw);
+        top: 10%;
+        left: 50%;
+        height: 90%;
+        transform: translateX(-50%);
+        content: '';
+        background-image: url(images/bg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        pointer-events: none;
+    }
+</style>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home" class="home-section">
+        <div class="banner">
+            <header class="header">
+
+
+                <div class="bx bx-menu" id="menu-icon"></div>
+                
+                <div class="bx bx-menu" id="menu-icon"></div>
+
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/dragon_1.jpeg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/dragon_2.jpeg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/dragon_3.jpeg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/dragon_4.jpeg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/dragon_5.jpeg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/dragon_6.jpeg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/dragon_7.jpeg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/dragon_8.jpeg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/dragon_9.jpeg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/dragon_10.jpeg" alt=""></div>
+        </div>
+        <section class="home" id="home">
+            <div class="home-content">
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+                CSS ONLY
+            </h1>
+            <div class="home-content">
+                 <div class="author">
+                  <h2>LUN DEV</h2>
+                  <p><b>Web Design</b></p>
+                  <p>
+                     Subscribe to the channel to watch many interesting videosv
+                 </p>
+                <div class="btn-box">
+                    <a href="#" class="btn"> HIRE ME</a>
+                    <a href="#" class="btn"> Let's Talk</a>
+                 </div>
+            </div>    
+            </div>
+            
+            <div class="model"></div>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                
+            </div>
+         </section>
+        </div>
+    </div>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Short description of the project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="home" class="home-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm [Your Name], a web developer.</p>
+        <button><a href="#projects">See My Work</a></button>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with a love for creating functional and beautiful websites. I have experience in HTML, CSS, JavaScript, and more!</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <div class="container">
+                    <div class="skill-box">
+                      <span class="title">HTML</span>
+                      
+                      <div class="skill-bar">
+                        <span class="skill-per html">
+                          <span class="tooltip">90%</span>
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                      <span class="title">CSS</span>
+                      
+                      <div class="skill-bar">
+                        <span class="skill-per css">
+                          <span class="tooltip">70%</span>
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                      <span class="title">JavaScript</span>
+                      
+                      <div class="skill-bar">
+                        <span class="skill-per js">
+                          <span class="tooltip">50%</span>
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                      <span class="title">Node Js</span>
+                      
+                      <div class="skill-bar">
+                        <span class="skill-per node-js">
+                          <span class="tooltip">30%</span>
+                        </span>
+                      </div>
+                    </div>
+                   </div>
+                <h3>Project 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Short description of the project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
